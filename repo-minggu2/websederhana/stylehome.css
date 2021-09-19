@@ -1,0 +1,88 @@
+* { box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	height: auto;
+	font-family: sans-serif;
+	background-color: lightgray;
+
+}
+
+body {
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.header img{
+    width: 960px;
+    height: 200px;
+}
+
+.header h1{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: gray;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.header p{
+    color: #fff;
+}
+
+.konten{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.konten .kiri1{
+    margin-right: 200px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.konten .kiri1 h1{
+    text-align: center;
+}
+
+.konten .kiri1 img{
+    margin-left: 230px;
+}
+
+.konten p{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.konten .kiri2 h2{
+    margin-left: 20px
+}
+.konten .kiri2 ol{
+    margin-left: 60px;
+    margin-right: 10px;   
+}
