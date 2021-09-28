@@ -1,0 +1,109 @@
+* { box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	height: auto;
+	font-family: sans-serif;
+	background-color: lightgray;
+
+}
+
+body {
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.header img{
+    width: 960px;
+    height: 200px;
+}
+
+.header h1{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header p{
+    color: #fff;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: gray;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.konten{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.konten p{
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.konten .kiri{
+    margin-right: 200px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.konten .kiri img{
+    margin-left: 50px;
+    width: 300px;
+    height: 210px;
+}
+
+.konten .kiri video{
+    margin-left: 200px;
+}
+
+.konten .kiri iframe{
+    margin-left: 200px;
+}
+
+.konten .kiri p{
+    margin-left: 50px;
+}
+
+.konten .kiri h1{
+    margin-left: 20px;
+}
+
+.konten .kiri h2{
+    margin-left: 20px;
+}
+
+footer {
+    width: 960px;
+	margin: auto;
+	height: auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: grey;
+    font-weight: bold;
+}
