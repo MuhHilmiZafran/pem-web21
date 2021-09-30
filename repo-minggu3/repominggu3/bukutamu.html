@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABOUT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylehome.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="img/kudus.jpeg">
+                <h1>KOTA KUDUS</h1>
+                <p>WISATA DAN KULINER di KOTA KUDUS</p>
+            </div>
+
+            <div class="topnav">
+                <a href="home.html">Home</a>
+                <a href="wisata.html">Wisata</a>
+                <a href="kuliner.html">Kuliner</a>
+                <a href="#">Tentang</a>
+            </div>
+
+            <div class="konten">
+                <div class="kiri">
+                    <h1>Form Buku Tamu</h1>
+                    <form>
+                        Username : <br>
+                            <input type="text" name="nama_lengkap" size="55">
+                        <br><br>
+                        Email : <br>
+                        <input type="text" name="email" size="55"> 
+                        <br><br>
+                        Jenis Kelamin : <br>
+                            <input type="radio" name="jenis_kelamin" value="L"> Laki-laki 
+                            <input type="radio" name="jenis_kelamin" value="P"> Perempuan 
+                        <br><br>
+                        Mengetahui Web Ini dari :<br>
+                        <select name="info">				
+                            <option selected="select">-= Pilih =-</option>		
+                            <option value="web udinus">Sosial Media</option>
+                            <option value="surat kabar">Surat Kabar</option>		
+                            <option value="teman kerabat">Teman/Kerabat</option>
+                            <option value="browsing internet">Browsing Internet</option>
+                        </select>
+                        <br><br>
+                        Pesan :<br> 
+                            <textarea name="pesan" cols="40" rows="3"></textarea>
+                        <br><br>
+                        Sosial Media :<br>
+                        <input type="checkbox" name="facebook" value="Ya">Facebook
+                        <input type="checkbox" name="twitter" value="Ya">Twitter
+                        <input type="checkbox" name="instagram" value="Ya">Instagram
+                        <br><br>
+                    
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <h3 align="center"id="tanggal"></h3>
+        <script text="text/JavaScript">
+            var tgl = new Date();
+                document.getElementById("tanggal").innerHTML = " "+tgl;
+        </script>
+        <footer>
+            kabar wisata  &#169; 2021, All rights reserved
+        </footer>
+    </body>
+
+</html>
