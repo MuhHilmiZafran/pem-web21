@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Pendaftaran PPDB Jalur Zonasi tahun 2020</title>
+        <style>
+            * { box-sizing: border-box;
+                padding: 1px;
+                margin: 0px;
+            }
+
+            body {
+                margin: auto;
+            }
+
+            .container {
+                width: 800px;
+                margin: auto;
+                height: auto;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: lightgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h2><center>Formulir Pendaftaran PPDB Jalur Zonasi Tahun 2020</center></h2><br>
+        <font><center><table border="0"></font>
+            
+            <tr>
+                <td><b>INFO PENDAFTARAN</b></td>
+            </tr>
+            <tr>
+                <td>NISN</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="nisn" name="nisn"></td>
+            </tr>
+            <tr>
+                <td>Alamat Sekolah</td>
+                <td></td>
+                <td>:</td>
+                <td><textarea name="alamat" cols="40" rows="3"></textarea></td>
+
+            </tr>
+            <tr>
+                <td>Tahun Lulus</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="tahun" name="tahun">(lampirkan fotocopy ijazah)</td>
+            </tr>
+            <tr>
+                <td><b>DATA CALON PESERTA</b></td>
+            </tr>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>NIK</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="nik" name="nik"></td>
+            </tr>
+            <tr>
+                <td>Tempat/Tanggal Lahir</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="text" name="tempat" size="10">,<input type="date" name="tanggal" size="10"></td>
+            </tr>
+            <tr>
+                <td>Umur</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="number" name="umur" min="10" max="60">tahun,
+                <input type="number" name="umur" min="1" max="12">bulan</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Foto Copy Akte Kelahiran Yang Sudah Dilegarisir (Di Lampirkan)</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td></td>
+                <td>:</td>
+                <td>
+                    <select name="gender">				
+                        <option selected="select">-= Pilih =-</option>		
+                        <option value="Laki-laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>		
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td></td>
+                <td>:</td>
+                <td><textarea name="alamat" cols="40" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Desa/Kel.</td>
+                <td>:</td>
+                <td><input type="text" name="alamatdetil" size="20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Kecamatan</td>
+                <td>:</td>
+                <td><input type="text" name="alamatdetil" size="20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Kabupaten</td>
+                <td>:</td>
+                <td><input type="text" name="alamatdetil" size="20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Provinsi</td>
+                <td>:</td>
+                <td><input type="text" name="alamatdetil" size="20"></td>
+            </tr>
+            <tr>
+                <td>Email Aktif</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="email" name="email" size="20"></td>
+            </tr>
+            <tr>
+                <td><b>DATA ORANG TUA</b> (lampirkan KK)</td>
+            </tr>
+            <tr>
+                <td>Nomor Kartu Keluarga</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="text" name="kk"</td>
+            </tr>
+            <tr>
+                <td>Nama Ayah Kandung</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="text" name="nama_ayah"</td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td></td>
+                <td>:</td>
+                <td>
+                    <select name="agama">				
+                        <option selected="select">-= Pilih =-</option>		
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katholik">Katholik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Konghucu">Konghucu</option>
+                        <option value="Lain-lain">Lain-lain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td></td>
+                <td>:</td>
+                <td>
+                    <select name="agama">				
+                        <option selected="select">-= Pilih =-</option>		
+                        <option value="PNS">PNS</option>
+                        <option value="TNI/POLRI">TNI/POLRI</option>
+                        <option value="Wiraswasta">Wiraswasta</option>
+                        <option value="Ibu Rumah Tangga">Ibu Rumah Tangga</option>
+                        <option value="Lain-lain">Lain-lain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Nama Ibu Kandung</td>
+                <td></td>
+                <td>:</td>
+                <td><input type="text" name="nama_ibu"</td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td></td>
+                <td>:</td>
+                <td>
+                    <select name="agama">				
+                        <option selected="select">-= Pilih =-</option>		
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katholik">Katholik</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Konghucu">Konghucu</option>
+                        <option value="Lain-lain">Lain-lain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td></td>
+                <td>:</td>
+                <td>
+                    <select name="agama">				
+                        <option selected="select">-= Pilih =-</option>		
+                        <option value="PNS">PNS</option>
+                        <option value="TNI/POLRI">TNI/POLRI</option>
+                        <option value="Wiraswasta">Wiraswasta</option>
+                        <option value="Ibu Rumah Tangga">Ibu Rumah Tangga</option>
+                        <option value="Lain-lain">Lain-lain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat Orang Tua</td>
+                <td></td>
+                <td>:</td>
+                <td><textarea name="alamat" cols="40" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Desa/Kel.</td>
+                <td>:</td>
+                <td><input type="text" name="alamatdetil" size="20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Kecamatan</td>
+                <td>:</td>
+                <td><input type="text" name="alamatdetil" size="20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Kabupaten</td>
+                <td>:</td>
+                <td><input type="text" name="alamatdetil" size="20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Provinsi</td>
+                <td>:</td>
+                <td><input type="text" name="alamatdetil" size="20"></td>
+            </tr>
+        </div>
+
+
+
+    </body>
+
+
+</html>
