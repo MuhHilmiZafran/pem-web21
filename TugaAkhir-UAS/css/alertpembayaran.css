@@ -1,0 +1,28 @@
+h2,
+p {
+  text-align: center;
+}
+
+.v345_44 {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  left: 537px;
+  top: 500px;
+  background: #04f0ff;
+  border-radius: 4px;
+}
+
+.v345_45 {
+  position: absolute;
+  width: 240px;
+  height: 25px;
+  top: 5px;
+  left: 25px;
+  font-family: Sedan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  color: #ffffff;
+}
